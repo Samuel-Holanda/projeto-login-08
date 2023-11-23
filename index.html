@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto-Login-07</title>
+</head>
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça login <br>E participe de sorteios para prêmios.</h1>
+            <img src="imagens/security-animate.svg" alt="animação de computador e segurança" class="left-login-image">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                <form action="cadastro.php" method="post">
+                    <div class="textfield">
+                        <label for="emaili">E-mail.</label>
+                        <input type="email" name="email" id="emaili" autocomplete="off" required>
+                    </div>
+
+                    <div class="textfield">
+                        <label for="senhaa">Senha.</label>
+                        <input type="password" name="senha" id="senhaa" autocomplete="off" required>
+                    </div>
+
+                    <button type="submit" class="btn-login">LOGIN</button>
+                </form>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
